@@ -20,4 +20,3 @@ I am good at absorbing new information and putting it into practice!
 
 - ### English Level:
   B2
-  
