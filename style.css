@@ -1,8 +1,16 @@
-p {
-    color: red;
-    width: 500px;
-    border: 1px solid black;
-  }
-html {
-    background-color: #00539F;
+body {
+  background-color: #CCCCFF;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #9999FF;
+}
+.Navigation {
+  position: relative;
+  margin-left: auto;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  text-indent: 10px;
 }
