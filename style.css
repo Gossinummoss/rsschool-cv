@@ -1,0 +1,208 @@
+@font-face {
+    font-family: Montserrat;
+     src: url("assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf");
+   }
+   @font-face {
+    font-family: Roboto;
+     src: url("assets/fonts/roboto/Roboto-Thin.ttf");
+   }
+@font-face {
+    font-family: Circular Std;
+    src: url(assets/fonts/circularstd/CircularStd-Medium.ttf);
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #ebebeb;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: Roboto, sans-serif;
+    color: #414042;
+}
+header {
+    padding-top: 1%;
+}
+.education-link:hover {
+    transform: scale(1.2);
+  }
+  .education-link {
+    transition: 0.5s;
+  }
+  .skill-link:hover {
+    transform: scale(1.2);
+  }
+  .skill-link {
+    transition: 0.5s;
+  }
+.contact-link:hover {
+    transform: scale(1.2);
+  }
+  .contact-link {
+    transition: 0.5s;
+  }
+main {
+    padding-top: 3%;
+}
+footer {
+    padding-top: 3%;
+}
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0 0 15px;
+}
+.box {
+    max-width: 750px;
+    margin: auto;
+}
+.avatar {
+    width: 132px;
+    height: 118px;
+    border-radius: 10%;
+}
+h1, h2, h3 {
+    margin-bottom: -15px;
+    font-family: Circular Std, sans-serif;
+    font-weight: 700;
+}
+h1 {
+    font-weight: 600;
+    font-size: 30px;
+}
+h2 {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+h3 {
+    font-size: 15px;
+}
+p {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+}
+a {
+    color: #414042;
+    text-decoration: none;
+}
+li {
+    font-weight: 900;
+    margin: 10px 0;
+}
+.navigation {
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 15px;
+    text-indent: 20px;
+}
+.web {
+    font-size: 20px;
+}
+.main-info-section {
+    text-align: center;
+    width: 300px;
+}
+.icon {
+    margin-left: 10px;
+    margin-right: -10px;
+}
+.summary {
+text-align: justify;
+}
+.education-box {
+    width: 426px;
+}
+.education-section {
+    padding-top: 22px;
+}
+.briefcase {
+    width: 20px;
+    height: 21px;
+    margin-top: 8px;
+}
+.education-text {
+    padding-left: 20px;
+}
+.contact-section {
+    width: 750px;
+}
+.eng-lvl-text {
+    margin-left: 40px;
+}
+.pillar {
+    border-top: 1px solid #414042;
+    border-bottom: 1px solid #414042;
+}
+.pillar-header {
+    display: flex;
+    padding-bottom: 8px;
+}
+.contact-icon {
+    width: 20px;
+    height: 21px;
+    margin-top: 8px;
+}
+.pillar-text {
+    padding-top: 10px;
+    margin: auto;
+    padding-left: 10px;
+}
+.telegram {
+    border-bottom: 1px solid #414042;
+}
+.telegram-header {
+    display: flex;
+    justify-content: space-between;
+}
+.telegram-icon {
+    width: 18px;
+    height: 19px;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.skills-box {
+    width: 426px;
+    margin-top: 50px;
+}
+.skills-icon {
+    width: 20px;
+    height: 21px;
+    margin-top: 10px;
+}
+.skills-table {
+    padding: 15px;
+    padding-left: 20px;
+}
+.skill-html {
+    padding-bottom: 10px;
+}
+tr {
+    font-weight: 900;
+}
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+.author-box {
+    display: flex;
+}
+.year {
+    font-size: 15px;
+    margin-top: 17px;
+}
+.gh-link {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.rsschool-link {
+    width: 150px;
+    text-align: right;
+}
